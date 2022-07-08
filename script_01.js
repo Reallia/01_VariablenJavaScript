@@ -31,10 +31,24 @@
 
 // JS ist eine untypisierte Sprache! | untyped
 
-let test;
-test = "Hi";
-test = 2;
-test = true;
+// let test;
+// test = "Hi";
+// test = 2;
+// test = true;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03 Konstanten *******/
+
+// const test = "hallo";   // Variablen mit KONSTANTEM Inhalt
+// // test = "hi";         // Keine neue Zuweisung zur LZ möglich! --> Fehler
+// console.log(test);
+
+/***** 04 Beispiel *******/
+
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+let year = 2022;
+
