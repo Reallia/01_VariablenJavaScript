@@ -24,7 +24,17 @@
 
 /***** 03 Deklaration + Wertzuweisung II *******/
 
-let firstName,familyName;
-firstName = prompt("Bitte Vornamen eingeben: "); // Prompt erzeugt ein modales Fenster zur Eingabe
-familyName = prompt("Bitte Nachnamen eingeben: ");; // die Daten werden entgegengenommen und bei wieder aufruf der Variable ausgegeben
-console.log(firstName + " " + familyName); // concatenation, hier wwerden die daten wieder ausgegeben.
+// let firstName,familyName;
+// firstName = prompt("Bitte Vornamen eingeben: "); // Prompt erzeugt ein modales Fenster zur Eingabe
+// familyName = prompt("Bitte Nachnamen eingeben: ");; // die Daten werden entgegengenommen und bei wieder aufruf der Variable ausgegeben
+// console.log(firstName + " " + familyName); // concatenation, hier werden die daten wieder ausgegeben.
+
+// JS ist eine untypisierte Sprache! | untyped
+
+let test;
+test = "Hi";
+// test = 2;
+// test = true;
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
