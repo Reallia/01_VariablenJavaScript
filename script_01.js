@@ -33,8 +33,8 @@
 
 let test;
 test = "Hi";
-// test = 2;
-// test = true;
+test = 2;
+test = true;
 
 console.log("Datentyp: " + typeof test);
 console.log("Inhalt: " + test);
